@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body bgcolor="DAE7E7">
+    
+    <h1 style="color: rgb(14, 2, 21) ;" align="center" > <i> <u> School Enrollment Form </u></i></h1>
+    
+    <label for="username">Enter Username</label>
+    <input type="username" name="username">  <br> <br>
+
+    <label for="Father's name">Father's name</label>
+    <input type="text" name="Father's name"> <br> <br>
+
+    <label for="email">Email id:</label>
+    <input type="email" name="email" placeholder="abc1@gmail.com"> <br> <br>
+
+    <label for="contect ">Contect No.</label>
+    <input type="number" name="contect"> <br> <br>
+
+    <label for="address">Address </label>
+    <input type="textarea" name="address">
+
+    <p>Choose your Gender</p>
+    <label for="Male">Male</label>
+    <input type="radio" Name="Gender" value="Male" id="Male">
+
+    <label for="Female">Female</label>
+    <input type="radio" Name="Gender" value="Female" id="Female">
+
+    <div>
+        <p>Select your state</p>
+        <select name="state">multiple
+            <option value="non">Select your state</option>
+            <option value="raj">Rajesthan</option>
+            <option value="Haryana">Haryana</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="Punjab">Punjab</option>
+        </select>
+    </div>
+
+    <div>
+        <p>Enter pin code</p>
+        <input name="Pin code" type="number">
+    </div>
+
+    <div>
+    <p>Adhar card No.</p>
+    <input type="number" name="adhar number">
+    </div>
+    <br>
+    <div>
+        <label for="fb url">Facebook URL :</label>
+        <input type="url" name="Facebook url" id="fb url" placeholder="facebook url ">
+    </div>
+
+    <div>
+        <p>Enter your DOB</p>
+        <input type="date" name="DOB" id="DOB">
+    </div>
+
+    <div>
+        <p>Choose Extra activity</p>
+        <form action="Music">Music</form>
+        <input type="checkbox" name="Extra activity" id="Music">
+
+        <form action="Sports">Sports</form>
+        <input type="checkbox" name="Extra activity" id="Sports">
+
+        <form action="Dance"> Dance</form>
+        <input type="checkbox" name="Extra activity" id="Dance">
+    </div>
+
+    <div>
+        <p>Upload your photo :</p>
+        <input type="file"></div>  <br> <br>
+    <div> <input type="submit" value="Submit"></div>
+</body>
+
+</html>
